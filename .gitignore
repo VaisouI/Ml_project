@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+.ipynb_checkpoints/
+
+# Local datasets and large model artifacts
+projects/*/data/*
+!projects/*/data/README.md
+projects/*/artifacts/models/
+*.joblib
+*.pt
+
+# Runtime outputs
+tmp/
+projects/*/artifacts/generated/
+projects/*/artifacts/reports/
+projects/01-perceptron-boolean-function/artifacts/tables/history_*.csv
+projects/*/reports/
+projects/*/tools/
